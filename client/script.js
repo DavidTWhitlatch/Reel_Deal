@@ -1,6 +1,6 @@
 const main = async () => {
   const OMDB_BASE_URL = `http://www.omdbapi.com/?apikey=${API_KEY}&`
-  const BASE_URL = 'http://localhost:3000/favorites';
+  const BASE_URL = 'https://intense-cliffs-67869.herokuapp.com/favorites';
   const content = document.querySelector('.content');
   let favorites = [];
 
